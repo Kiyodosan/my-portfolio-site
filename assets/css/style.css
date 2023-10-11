@@ -27,7 +27,7 @@ body {
 /* Adds icon next to the home section */
 .home::before {
   content: '';
-  background-image: url('/assets/images/Kiyodo Logo - Watermark Ver. (150x150).jpg');
+  background-image: url('assets\images\Kiyodo Logo - Watermark Ver. (150x150).jpg');
   position: relative;
   background-repeat: no-repeat;
   width: 35px;
@@ -90,7 +90,7 @@ body {
 #feature-img-link {
   display: flex;
   content: '';
-  background-image: url('/assets/images/screencapture-kiyodosan-github-io-UCI-BOOTCAMP-WEEK-1-CODE-REFACTORING-2023-10-08-19_54_17.png');
+  background-image: url('assets\images\screencapture-kiyodosan-github-io-UCI-BOOTCAMP-WEEK-1-CODE-REFACTORING-2023-10-08-19_54_17.png');
   background-size: cover;
   background-repeat: no-repeat;
   text-indent: -9999px;
@@ -136,19 +136,19 @@ body {
 
 /* Adds clickable images to 'a' element tags in the secondary content section */
 #secondary-img-1 {
-  background-image: url('/assets/images/secondary-banner-placeholder.jpg');
+  background-image: url('assets\images\secondary-banner-placeholder.jpg');
 }
 
 #secondary-img-2 {
-  background-image: url('/assets/images/secondary-banner-placeholder.jpg');
+  background-image: url('assets\images\secondary-banner-placeholder.jpg');
 }
 
 #secondary-img-3 {
-  background-image: url('/assets/images/secondary-banner-placeholder.jpg');
+  background-image: url('assets\images\secondary-banner-placeholder.jpg');
 }
 
 #secondary-img-4 {
-  background-image: url('/assets/images/secondary-banner-placeholder.jpg');
+  background-image: url('assets\images\secondary-banner-placeholder.jpg');
 }
 
 /*
@@ -240,19 +240,19 @@ body {
 
 /* Adds clickable images to 'a' element tags in the social media section */
 #social-img-1 {
-  background-image: url('/assets/images/LinkedIn - button.jpg');
+  background-image: url('assets\images\LinkedIn - button.jpg');
 }
 
 #social-img-2 {
-  background-image: url('/assets/images/G+ - button.jpg');
+  background-image: url('assets\images\G+ - button.jpg');
 }
 
 #social-img-3 {
-  background-image: url('/assets/images/YouTube - button.jpg');
+  background-image: url('assets\images\YouTube - button.jpg');
 }
 
 #social-img-4 {
-  background-image: url('/assets/images/Twitter - button.jpg');
+  background-image: url('assets\images\Twitter - button.jpg');
 }
 
 /* Sets structure for contact information */
@@ -272,7 +272,7 @@ body {
 
 #phone::before {
   content: '';
-  background-image: url('/assets/images/phone icon.png');
+  background-image: url('assets\images\phone icon.png');
   position: relative;
   background-repeat: no-repeat;
   display: flex;
@@ -284,7 +284,7 @@ body {
 
 #email::before {
   content: '';
-  background-image: url('/assets/images/email icon.png');
+  background-image: url('assets\images\email icon.png');
   position: relative;
   background-repeat: no-repeat;
   display: flex;
