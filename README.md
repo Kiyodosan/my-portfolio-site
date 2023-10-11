@@ -12,7 +12,7 @@ This is a website optimization project that consolidates repeated code, ensures 
 ![My Portfolio Site](/assets/images/screencapture-127-0-0-1-5500-2023-10-10-19_08_00.png)
 
 Click this link to visit the site:  
-[My Portfolio Site]()
+[My Portfolio Site](https://kiyodosan.github.io/my-portfolio-site/)
 
 ## How to use this project
 
