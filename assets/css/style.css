@@ -41,7 +41,6 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  margin: 0;        /* 2 margins? maybe change */
   margin-right: 2rem;
   padding: 0;
   list-style: none;
@@ -162,7 +161,7 @@ body {
 }
 */
 
-/* /* Sets groundwork for image captions */
+/* Sets groundwork for image captions */
 .bg-img-info {
   display: flex;
   flex-wrap: wrap;
@@ -298,7 +297,6 @@ body {
 /* Adjusts header for compatibility with smaller devices */
 @media (max-width: 650px) {
   .header {
-    border: 2px solid red;
     display: grid;
     grid-template-areas:
       'home'
@@ -307,7 +305,6 @@ body {
   }
 
   .home {
-    border: 2px solid red;
     grid-area: home;
     width: 58%;
     margin: auto;
