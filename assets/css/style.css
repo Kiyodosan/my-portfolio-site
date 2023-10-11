@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-  margin: 0;
+  margin: 0;        /* 2 margins? maybe change */
   margin-right: 2rem;
   padding: 0;
   list-style: none;
@@ -282,4 +282,29 @@ body {
   height: 37px;
   background-size: cover;
   margin-right: 0.5rem;
+}
+
+@media (max-width: 650px) {
+  .header {
+    border: 2px solid red;
+    display: grid;
+    grid-template-areas:
+      'home'
+      'navigation';
+    justify-content: center;
+    
+  }
+
+  .home {
+    border: 2px solid red;
+    grid-area: home;
+    width: 58%;
+    margin: auto;
+  }
+
+  .navigation {
+    grid-area: navigation;
+    width: 100%;
+    margin: auto;
+  }
 }
