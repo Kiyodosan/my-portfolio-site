@@ -3,6 +3,7 @@ body {
   background-color: black;
 }
 
+/* Sets groundwork for the home logo and navigational links */
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +24,7 @@ body {
   font-size: 2rem;
 }
 
+/* Adds icon next to the home section */
 .home::before {
   content: '';
   background-image: url('/assets/images/Kiyodo Logo - Watermark Ver. (150x150).jpg');
@@ -34,6 +36,7 @@ body {
   margin-right: 1rem;
 }
 
+/* Navigational links for jumping through various sections of the home page */
 .navigation {
   display: flex;
   justify-content: flex-end;
@@ -49,6 +52,7 @@ body {
   font-weight: bold;
 }
 
+/* Profile section with image + bio */
 .bio {
   display: flex;
   flex: 1;
@@ -120,6 +124,7 @@ body {
   box-shadow: 0px 0px 15px 1px white;
 }
 
+/* Sets groundwork for secondary content links */
 .secondary-link {
   display: flex;
   content: '';
@@ -130,6 +135,7 @@ body {
   height: 10rem;
 }
 
+/* Adds clickable images to 'a' element tags in the secondary content section */
 #secondary-img-1 {
   background-image: url('/assets/images/secondary-banner-placeholder.jpg');
 }
@@ -156,6 +162,7 @@ body {
 }
 */
 
+/* /* Sets groundwork for image captions */
 .bg-img-info {
   display: flex;
   flex-wrap: wrap;
@@ -190,10 +197,12 @@ body {
 }
 */
 
+/* Spacing for captions in the right-hand corner */
 .bg-img-info-rtl {
   right: 0;
 }
 
+/* Spacing for captions in the left-hand corner */
 .bg-img-info-ltr {
   left: 0;
 }
@@ -220,8 +229,8 @@ body {
   display: flex;
 }
 
+/* Sets groundwork for social media links */
 .social-link {
-  display: flex;
   content: '';
   background-size: cover;
   background-repeat: no-repeat;
@@ -230,6 +239,7 @@ body {
   height: 43px;
 }
 
+/* Adds clickable images to 'a' element tags in the social media section */
 #social-img-1 {
   background-image: url('/assets/images/LinkedIn - button.jpg');
 }
@@ -246,6 +256,7 @@ body {
   background-image: url('/assets/images/Twitter - button.jpg');
 }
 
+/* Sets structure for contact information */
 .footer {
   display: flex;
   min-height: 3rem;
@@ -284,6 +295,7 @@ body {
   margin-right: 0.5rem;
 }
 
+/* Adjusts header for compatibility with smaller devices */
 @media (max-width: 650px) {
   .header {
     border: 2px solid red;
@@ -292,7 +304,6 @@ body {
       'home'
       'navigation';
     justify-content: center;
-    
   }
 
   .home {
