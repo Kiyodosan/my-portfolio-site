@@ -24,4 +24,4 @@ Tyler Odo
 
 ## License
 
-My Portfolio Site © 2023 by Tyler Odo is licensed under CC BY-NC-SA 4.0
+Default
